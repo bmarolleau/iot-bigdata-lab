@@ -126,9 +126,11 @@ Generate a random temperature between 20 and 35°C. and observe results in the D
 docker run -d -p 5984:5984 -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=password  --name couchdb couchdb
 ```
 Interface Fauxton: http://localhost:5984/_utils
-Create a database iotdb.
+
+Create a database iotdb, and directly go to section *Node-RED Connection to CouchDB*
 
 **Cloud Installation**
+
 If you can't install CouchDB locally, it is possible to consume the service in the Cloud. IBM Cloud offers an enterprise version of CouchDB called Cloudant. Here are the steps to create an instance in the cloud. 
 As a student or academic teacher, **IBM SkillsBuild** gives you access to many IBM Products and cool products in **SaaS** mode like **watxon** and **watsonx** AI services, Kubernetes services, Data services...
 
