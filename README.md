@@ -160,9 +160,14 @@ As a student or academic teacher, **IBM SkillsBuild** gives you access to many I
 
 ### Node-RED Connection to CouchDB
 1. Install node-red-node-couchdb
+
 We’ll need to interact with Cloudant from Node-RED. To do so, the easiest way is to install a cloudant Node-RED node. 
+
 1.1 Go to the top right menu, click **Manage Palette**
-1.2 Search and install `node-red-contrib-cloudantplus`  as shown below. Click the install button. This install should take a few seconds and you’ll be notified once done. 
+
+1.2 Search and install `node-red-contrib-cloudantplus`  as shown below. 
+
+Click the install button. This install should take a few seconds and you’ll be notified once done. 
 
 ![alt text](./images/image-22.png)
 
