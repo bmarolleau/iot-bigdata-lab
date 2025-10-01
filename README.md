@@ -132,13 +132,22 @@ As a student or academic teacher, **IBM SkillsBuild** gives you access to many I
 3)	Request an IBM Cloud Feature Code: [Instructions](https://github.com/academic-initiative/documentation/tree/main/academic-initiative/how-to/How-to-request-and-IBM-Cloud-Feature-Code)
 4) Apply an IBM Cloud Feature Code: [Instructions](https://github.com/academic-initiative/documentation/tree/main/academic-initiative/how-to/How-to-apply-an-IBM-Cloud-Feature-Code)
 5) Create your CouchDB service
-5.1 First, create a Cloudant service running in a Cloud to store your IoT data. Browse the catalog and instanciate a Cloudant service  ![alt text](./images/image-18.png)
+5.1 First, create a Cloudant service running in a Cloud to store your IoT data. Browse the catalog and instanciate a Cloudant service 
+
+ ![alt text](./images/image-18.png)
+
 5.2 Use the default values and select the Lite (Free) plan a shown below. Push the Create button. 
+
 5.3 Go to the “Resource List” page, click on your service
+
 ![alt text](./images/image-19.png)
+
 5.4 Service Credentials, New Credential
+
 ![alt text](./images/image-20.png)
+
 5.5 Note your credentials (apikey,url) for later
+
 ![alt text](./images/image-21.png)
 
 ### Node-RED Connection to CouchDB
@@ -153,6 +162,7 @@ We’ll need to interact with Cloudant from Node-RED. To do so, the easiest way 
 Add a couchdb/Cloudant Node  (`Cloudant OUT` node in the Storage Category) & link it to the temp function node 
 
 ![alt text](./images/image-23.png)
+
 ![alt text](./images/image-24.png)
 
 3. Configure the node to connect to your database by double clicking on the cloudant node (ensure you use a `cloudant out` node)
