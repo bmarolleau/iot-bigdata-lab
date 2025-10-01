@@ -93,19 +93,25 @@ where YOURNAME is a unique identifier, your name for example.
 `Port: 1883`
 
 7. Deploy and check in the Debug panel on the right side while you are playing with the sensor simulator. Every 5 seconds or each time you push the “Inject node” button, your node-red simulator is injecting and publishing a message to the MQTT broker.
+
 ![alt text](./images/image-5.png)
 
 8. IoT Application & MQTT Subscription:
 8.1 Now import a new flow (flow1.json). A flow can be exported & imported using JSON file. [Flow1.json](./flow1.json)
 8.2 Select all content and copy it (Ctrl-A, Ctrl-C)
 8.2 Click on the top right button near Deploy. Select Import, Clipboard & copy/paste the content of the JSON file in Current flow.
+
 ![alt text](./images/image-6.png)
+
 8.3 Click on workspace to paste imported nodes. 
 Check and adapt the mqtt In node settings (topic, mqtt settings).
 Double click on the node, edit the topic and subscribe to the previously used topic
+
 ![alt text](./images/image-7.png)
+
 8.3 Click Deploy to deploy the new Flow. 
 Modify the Device Temperature & check the Debug logs.
+
 ![alt text](./images/image-8.png)
 
 **Additional Exercise**
