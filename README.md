@@ -428,6 +428,6 @@ In this IoT and predictive maintenance context, we'll focus on a timeseries foun
 Please refer to the following [Granite Time Series Workshop](https://ibm-granite-community.github.io/granite-timeseries-workshop/) for more cool exercises. 
 
 In this lab you're going to do:  
-[Lab 0: Pre-work](https://ibm-granite-community.github.io/granite-timeseries-workshop/pre-work/)
-[Lab 1: Energy Demand Forecasting - Basic Inference](https://ibm-granite-community.github.io/granite-timeseries-workshop/lab-1/)
+- [Lab 0: Pre-work](https://ibm-granite-community.github.io/granite-timeseries-workshop/pre-work/)
+- [Lab 1: Energy Demand Forecasting - Basic Inference](https://ibm-granite-community.github.io/granite-timeseries-workshop/lab-1/)
 
