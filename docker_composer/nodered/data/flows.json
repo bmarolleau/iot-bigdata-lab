@@ -1,0 +1,265 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ac59fe1f.451f3",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3cc11d24.ff01a2",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work",
+        "info": "\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c25937ceb39769af",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "6b6ddf244bc3c0b6"
+            ]
+        ]
+    },
+    {
+        "id": "c4d577a11459c994",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "topic": "iot-2/cmd/sendsensordata/fmt/json",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ac59fe1f.451f3",
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6b6ddf244bc3c0b6",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "function 1",
+        "func": "// Initialize x in the context if it doesn't exist\nif (context.get('x') === undefined) {\n    context.set('x', 1);\n}\n\n// Get the current value of x\nlet x = context.get('x');\n\n// Create the payload\nmsg.payload = '{\"temp\":' + x + ', \"humidity\":1, \"objectTemp\":5}';\n\n// Increment x and store it back in the context\nx = x*1.09;\ncontext.set('x', x);\n\n// Return the message\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 260,
+        "wires": [
+            [
+                "c4d577a11459c994",
+                "5f5124bbf98eaffe"
+            ]
+        ]
+    },
+    {
+        "id": "5f5124bbf98eaffe",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b1c963fe6a1add7b",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "cpustatus",
+        "active": true,
+        "complete": "false",
+        "x": 840,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "ca951c665f323fee",
+        "type": "template",
+        "z": "f6f2187d.f17ca8",
+        "name": "danger",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "mustache",
+        "template": "Temperature ({{payload}}) critical",
+        "x": 692,
+        "y": 668,
+        "wires": [
+            [
+                "b1c963fe6a1add7b"
+            ]
+        ]
+    },
+    {
+        "id": "6aad7f27baf81cfc",
+        "type": "template",
+        "z": "f6f2187d.f17ca8",
+        "name": "safe",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "mustache",
+        "template": "Temperature({{payload}}) within safe limits",
+        "x": 693,
+        "y": 574,
+        "wires": [
+            [
+                "b1c963fe6a1add7b"
+            ]
+        ]
+    },
+    {
+        "id": "fff319dbe55c0aea",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "temp thresh",
+        "property": "payload",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "40"
+            },
+            {
+                "t": "gt",
+                "v": "40"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 529,
+        "y": 623,
+        "wires": [
+            [
+                "6aad7f27baf81cfc"
+            ],
+            [
+                "ca951c665f323fee"
+            ]
+        ]
+    },
+    {
+        "id": "23e82edae5656a76",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "temp",
+        "func": "\nreturn { payload: msg.payload.temp, topic: 'Temperature' };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 522,
+        "wires": [
+            [
+                "32cfeea2101c8668",
+                "fff319dbe55c0aea"
+            ]
+        ]
+    },
+    {
+        "id": "32cfeea2101c8668",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 442,
+        "wires": []
+    },
+    {
+        "id": "eb8d5beb5c2d77cd",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "topic": "iot-2/cmd/sendsensordata/fmt/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "ac59fe1f.451f3",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 220,
+        "y": 522,
+        "wires": [
+            [
+                "23e82edae5656a76",
+                "32cfeea2101c8668"
+            ]
+        ]
+    }
+]
