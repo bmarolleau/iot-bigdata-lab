@@ -1,0 +1,864 @@
+[
+    {
+        "id": "3cc11d24.ff01a2",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work",
+        "info": "\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "677adea17c786cf1",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ae8c78938bb62cb8",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "name": "iot pub",
+        "topic": "iot-2/cmd/TESTBENOIT/fmt/json",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ac59fe1f.451f3",
+        "x": 640,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b4deb1e5304b12d6",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "cpustatus",
+        "active": false,
+        "complete": "false",
+        "x": 1080,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "850fe4aaa2743071",
+        "type": "template",
+        "z": "f6f2187d.f17ca8",
+        "name": "danger",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "mustache",
+        "template": "Temperature ({{payload}}) critical",
+        "x": 940,
+        "y": 600,
+        "wires": [
+            [
+                "b4deb1e5304b12d6"
+            ]
+        ]
+    },
+    {
+        "id": "731c57e4a10b336c",
+        "type": "template",
+        "z": "f6f2187d.f17ca8",
+        "name": "safe",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "mustache",
+        "template": "Temperature({{payload}}) within safe limits",
+        "x": 950,
+        "y": 520,
+        "wires": [
+            [
+                "b4deb1e5304b12d6"
+            ]
+        ]
+    },
+    {
+        "id": "18230c8c7cceb5e7",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "temp thresh",
+        "property": "payload",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "40"
+            },
+            {
+                "t": "gt",
+                "v": "40"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 810,
+        "y": 560,
+        "wires": [
+            [
+                "731c57e4a10b336c"
+            ],
+            [
+                "850fe4aaa2743071"
+            ]
+        ]
+    },
+    {
+        "id": "23d47bf264e6fe9b",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "temp",
+        "func": "return { payload: msg.payload.d.temp, topic: 'Temperature' };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 462,
+        "wires": [
+            [
+                "18230c8c7cceb5e7",
+                "e8ab98a72160be9f",
+                "e133561fa59d8dcc"
+            ]
+        ]
+    },
+    {
+        "id": "514f2f24226c8426",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b18e83fa74dd2ad6",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "topic": "iot-2/cmd/TESTBENOIT/fmt/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "ac59fe1f.451f3",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 280,
+        "y": 462,
+        "wires": [
+            [
+                "23d47bf264e6fe9b",
+                "514f2f24226c8426",
+                "8c86e9480a93f70f",
+                "ab3c1e92.dc32d",
+                "bde7e232.e83fd",
+                "7acede462485f709"
+            ]
+        ]
+    },
+    {
+        "id": "inject-sensor",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "Générer toutes les 10s",
+        "props": [],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "function-random"
+            ]
+        ]
+    },
+    {
+        "id": "function-random",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Générer données aléatoires",
+        "func": "const temp = Math.floor(Math.random() * 100) ; // 20 à 29\nconst humidity = Math.floor(Math.random() * 30) + 50; // 50 à 79\nconst objectTemp = Math.floor(Math.random() * 10) + 20; // 20 à 29\n\nconst deviceId = \"device-001\"; // ID du capteur\nconst topic = \"sensors/\" + deviceId + \"/data\"; // Topic dynamique\nconst ts = new Date().getTime();\nmsg.topic = topic;\nmsg.payload = {\n    deviceId: deviceId,\n    d: {\n        temp: temp,\n        humidity: humidity,\n        objectTemp: objectTemp,\n        timestamp: ts \n    }\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 300,
+        "wires": [
+            [
+                "ae8c78938bb62cb8",
+                "677adea17c786cf1"
+            ]
+        ]
+    },
+    {
+        "id": "8c86e9480a93f70f",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "function 1",
+        "func": "/*msg.payload = [{\n    temp: Math.floor(Math.random() * 10) + 25, \n    humidity: 70, \n    objectTemp: 23,\n    strValue: \"test\"\n},\n{\n    tag1: \"sensor1\",\n    tag2: \"device2\"\n}];\nreturn msg;\n*/\n\nvar json = msg.payload.d;\nmsg.payload = [ json,\n{\n    tag1: \"sensor1\",\n    tag2: \"device2\"\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 620,
+        "wires": [
+            [
+                "d2f547fc8b72eaaf",
+                "1ffd0f1804ae16af"
+            ]
+        ]
+    },
+    {
+        "id": "1ffd0f1804ae16af",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "313df9c1f605a294",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "f76e5e26db16669f",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 1140,
+        "wires": [
+            [
+                "bc218679d89696f4"
+            ]
+        ]
+    },
+    {
+        "id": "bc218679d89696f4",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "function 2",
+        "func": "msg.query = 'from(bucket: \"iot\")|> range(start: -1d, stop: now())|> filter(fn: (r) => r[\"_measurement\"] == \"iot_sensors\")|> filter(fn: (r) => r[\"_field\"] == \"humidity\" or r[\"_field\"] == \"objectTemp\" or r[\"_field\"] == \"temp\")|> filter(fn: (r) => r[\"tag1\"] == \"sensor1\")|> filter(fn: (r) => r[\"tag2\"] == \"device2\")|> yield(name: \"mean\")';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1140,
+        "wires": [
+            [
+                "bf3d2a98c112ceba"
+            ]
+        ]
+    },
+    {
+        "id": "ab3c1e92.dc32d",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "﻿﻿Humidity",
+        "func": "return{payload:msg.payload.d.humidity,topic:'Humidity'};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 860,
+        "wires": [
+            [
+                "e133561fa59d8dcc",
+                "9db24e5b359b0385"
+            ]
+        ]
+    },
+    {
+        "id": "bde7e232.e83fd",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Object Temperature",
+        "func": "return{payload:msg.payload.d.objectTemp,topic:'Object temperature'};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 430,
+        "y": 940,
+        "wires": [
+            [
+                "aadba9e2fc5bf0de",
+                "e133561fa59d8dcc"
+            ]
+        ]
+    },
+    {
+        "id": "7acede462485f709",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "temp+timestamp",
+        "func": "return { payload: msg.payload.d.temp, ts:msg.payload.d.timestamp ,  topic: 'Temperature' };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 420,
+        "wires": [
+            [
+                "567a63dc15191073"
+            ]
+        ]
+    },
+    {
+        "id": "567a63dc15191073",
+        "type": "cloudantplus out",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "cloudant": "2a6d3de37716d3e1",
+        "database": "iotdb2",
+        "service": "_ext_",
+        "payonly": false,
+        "operation": "insert",
+        "x": 850,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2f547fc8b72eaaf",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "204437ff4dabfc04",
+        "name": "",
+        "measurement": "iot_sensors",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "us",
+        "retentionPolicyV18Flux": "",
+        "org": "bigdata-org",
+        "bucket": "iot",
+        "x": 600,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "bf3d2a98c112ceba",
+        "type": "influxdb in",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "204437ff4dabfc04",
+        "name": "",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "bigdata-org",
+        "x": 640,
+        "y": 1140,
+        "wires": [
+            [
+                "313df9c1f605a294"
+            ]
+        ]
+    },
+    {
+        "id": "238bddc8d87eb4f2",
+        "type": "ui-button",
+        "z": "f6f2187d.f17ca8",
+        "group": "5422a11edd7306bb",
+        "name": "Send IoT !! ",
+        "label": "Send IoT Data",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "function-random"
+            ]
+        ]
+    },
+    {
+        "id": "e133561fa59d8dcc",
+        "type": "ui-chart",
+        "z": "f6f2187d.f17ca8",
+        "group": "a585649ca0e1fdef",
+        "name": "",
+        "label": "IoT Chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "70",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "5",
+        "className": "",
+        "interpolation": "linear",
+        "x": 940,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8ab98a72160be9f",
+        "type": "ui-gauge",
+        "z": "f6f2187d.f17ca8",
+        "name": "temperature",
+        "group": "5422a11edd7306bb",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "temperature",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 610,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aadba9e2fc5bf0de",
+        "type": "ui-gauge",
+        "z": "f6f2187d.f17ca8",
+        "name": "object temperature",
+        "group": "5422a11edd7306bb",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "object temperature",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 710,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9db24e5b359b0385",
+        "type": "ui-gauge",
+        "z": "f6f2187d.f17ca8",
+        "name": "humidity",
+        "group": "5422a11edd7306bb",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "humidity",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 620,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac59fe1f.451f3",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "2a6d3de37716d3e1",
+        "type": "cloudantplus",
+        "host": "http://couchdb:5984",
+        "name": "",
+        "useapikey": false
+    },
+    {
+        "id": "204437ff4dabfc04",
+        "type": "influxdb",
+        "hostname": "10.88.0.14",
+        "port": 8086,
+        "protocol": "http",
+        "database": "iot",
+        "name": "iotseries",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://influxdb:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "5422a11edd7306bb",
+        "type": "ui-group",
+        "name": "Sensor Data",
+        "page": "c34db8908bab7f21",
+        "width": "12",
+        "height": "2",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a585649ca0e1fdef",
+        "type": "ui-group",
+        "name": "Charts",
+        "page": "c34db8908bab7f21",
+        "width": "12",
+        "height": "3",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c34db8908bab7f21",
+        "type": "ui-page",
+        "name": "First Iot Dashboard",
+        "ui": "728bfdacadabcbfb",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "1dd7a6cfd84c0f65",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "728bfdacadabcbfb",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "1dd7a6cfd84c0f65",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "68d2af05ba643ee6",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-cloudantplus": "2.0.6",
+            "node-red-contrib-influxdb": "0.7.0",
+            "@flowfuse/node-red-dashboard": "1.28.0"
+        }
+    }
+]

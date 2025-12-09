@@ -1,0 +1,50 @@
+version: '3'
+services:
+  nodered:
+    image: nodered/node-red
+    container_name: nodered
+    ports:
+      - "1880:1880"
+    volumes:
+      - nodered_data:/data
+    networks:
+      - mqtt-network
+  
+  couchdb:
+    image: couchdb
+    container_name: couchdb
+    ports:
+      - "5984:5984"
+    environment:
+      COUCHDB_USER: admin
+      COUCHDB_PASSWORD: password
+    volumes:
+      - ./couchdb/data:/opt/couchdb/data
+    networks:
+      - mqtt-network
+
+  influxdb:
+    image: influxdb:2.7
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - ./influxdb/data:/var/lib/influxdb2
+      - ./influxdb/config:/etc/influxdb2
+    networks:
+      - mqtt-network
+  
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - mqtt-network
+
+volumes:
+  nodered_data:
+  
+networks:
+  mqtt-network:
+    driver: bridge
