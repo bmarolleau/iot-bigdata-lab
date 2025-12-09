@@ -1,0 +1,1291 @@
+1765183529: mosquitto version 2.0.22 starting
+1765183529: Config loaded from /mosquitto/config/mosquitto.conf.
+1765183529: Opening ipv4 listen socket on port 1883.
+1765183529: mosquitto version 2.0.22 running
+1765183731: mosquitto version 2.0.22 terminating
+1765183731: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765183865: mosquitto version 2.0.22 starting
+1765183865: Config loaded from /mosquitto/config/mosquitto.conf.
+1765183865: Opening ipv4 listen socket on port 1883.
+1765183865: mosquitto version 2.0.22 running
+1765183868: New connection from 172.21.0.2:58484 on port 1883.
+1765183868: New client connected from 172.21.0.2:58484 as nodered3048380672e1a487 (p2, c1, k60).
+1765183868: No will message specified.
+1765183868: Sending CONNACK to nodered3048380672e1a487 (0, 0)
+1765183868: Received SUBSCRIBE from nodered3048380672e1a487
+1765183868: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765183868: nodered3048380672e1a487 0 iot-2/cmd/sendsensordata/fmt/json
+1765183868: Sending SUBACK to nodered3048380672e1a487
+1765183873: Received PUBLISH from nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183873: Sending PUBLISH to nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183878: Received PUBLISH from nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183878: Sending PUBLISH to nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183883: Received PUBLISH from nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183883: Sending PUBLISH to nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183888: Received PUBLISH from nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183888: Sending PUBLISH to nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183893: Received PUBLISH from nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183893: Sending PUBLISH to nodered3048380672e1a487 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183897: Received UNSUBSCRIBE from nodered3048380672e1a487
+1765183897: 	iot-2/cmd/sendsensordata/fmt/json
+1765183897: nodered3048380672e1a487 iot-2/cmd/sendsensordata/fmt/json
+1765183897: Sending UNSUBACK to nodered3048380672e1a487
+1765183897: mosquitto version 2.0.22 terminating
+1765183897: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765183908: mosquitto version 2.0.22 starting
+1765183908: Config loaded from /mosquitto/config/mosquitto.conf.
+1765183908: Opening ipv4 listen socket on port 1883.
+1765183908: mosquitto version 2.0.22 running
+1765183911: New connection from 172.21.0.2:47288 on port 1883.
+1765183911: New client connected from 172.21.0.2:47288 as nodered07c50bd313f56664 (p2, c1, k60).
+1765183911: No will message specified.
+1765183911: Sending CONNACK to nodered07c50bd313f56664 (0, 0)
+1765183911: Received SUBSCRIBE from nodered07c50bd313f56664
+1765183911: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765183911: nodered07c50bd313f56664 0 iot-2/cmd/sendsensordata/fmt/json
+1765183911: Sending SUBACK to nodered07c50bd313f56664
+1765183915: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183915: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183920: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183920: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183925: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183925: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183930: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183930: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183935: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183935: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183940: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183940: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183945: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183945: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183950: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183950: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183955: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183955: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183960: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183960: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183965: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183965: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183970: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183970: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183971: Received PINGREQ from nodered07c50bd313f56664
+1765183971: Sending PINGRESP to nodered07c50bd313f56664
+1765183975: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183975: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183980: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183980: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183985: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183985: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183990: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183990: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183995: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765183995: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184000: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184000: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184005: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184005: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184010: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184010: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184015: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184015: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184020: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184020: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184025: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184025: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184030: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184030: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184031: Received PINGREQ from nodered07c50bd313f56664
+1765184031: Sending PINGRESP to nodered07c50bd313f56664
+1765184035: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184035: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184040: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184040: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184045: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184045: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184050: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184050: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184055: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184055: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184060: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184060: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184065: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184065: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184070: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184070: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184075: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184075: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184080: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184080: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184085: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184085: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184090: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184090: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184091: Received PINGREQ from nodered07c50bd313f56664
+1765184091: Sending PINGRESP to nodered07c50bd313f56664
+1765184095: Received PUBLISH from nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184095: Sending PUBLISH to nodered07c50bd313f56664 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184097: Received UNSUBSCRIBE from nodered07c50bd313f56664
+1765184097: 	iot-2/cmd/sendsensordata/fmt/json
+1765184097: nodered07c50bd313f56664 iot-2/cmd/sendsensordata/fmt/json
+1765184097: Sending UNSUBACK to nodered07c50bd313f56664
+1765184097: Received DISCONNECT from nodered07c50bd313f56664
+1765184097: Client nodered07c50bd313f56664 disconnected.
+1765184097: New connection from 172.21.0.2:58894 on port 1883.
+1765184097: New client connected from 172.21.0.2:58894 as nodered43e32e650d847639 (p2, c1, k60).
+1765184097: No will message specified.
+1765184097: Sending CONNACK to nodered43e32e650d847639 (0, 0)
+1765184097: Received SUBSCRIBE from nodered43e32e650d847639
+1765184097: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765184097: nodered43e32e650d847639 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765184097: Sending SUBACK to nodered43e32e650d847639
+1765184102: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184107: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184112: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184117: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184122: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184127: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184132: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184137: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184142: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184147: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184152: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184157: Received PINGREQ from nodered43e32e650d847639
+1765184157: Sending PINGRESP to nodered43e32e650d847639
+1765184157: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184162: Received PUBLISH from nodered43e32e650d847639 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184165: Received UNSUBSCRIBE from nodered43e32e650d847639
+1765184165: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765184165: nodered43e32e650d847639 "iot-2/cmd/sendsensordata/fmt/json"
+1765184165: Sending UNSUBACK to nodered43e32e650d847639
+1765184165: Received DISCONNECT from nodered43e32e650d847639
+1765184165: Client nodered43e32e650d847639 disconnected.
+1765184165: New connection from 172.21.0.2:59092 on port 1883.
+1765184165: New client connected from 172.21.0.2:59092 as noderedbd609ce8b64dfae7 (p2, c1, k60).
+1765184165: No will message specified.
+1765184165: Sending CONNACK to noderedbd609ce8b64dfae7 (0, 0)
+1765184165: Received SUBSCRIBE from noderedbd609ce8b64dfae7
+1765184165: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765184165: noderedbd609ce8b64dfae7 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765184165: Sending SUBACK to noderedbd609ce8b64dfae7
+1765184170: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184175: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184180: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184185: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184190: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184195: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184200: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184205: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184210: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184215: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184221: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184225: Received PINGREQ from noderedbd609ce8b64dfae7
+1765184225: Sending PINGRESP to noderedbd609ce8b64dfae7
+1765184226: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184231: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184236: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184241: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184246: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184251: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184256: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184261: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184266: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184271: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184276: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184281: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184285: Received PINGREQ from noderedbd609ce8b64dfae7
+1765184285: Sending PINGRESP to noderedbd609ce8b64dfae7
+1765184286: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184291: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184296: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184301: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184306: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184311: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184316: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184321: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184326: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184331: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184336: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184341: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184345: Received PINGREQ from noderedbd609ce8b64dfae7
+1765184345: Sending PINGRESP to noderedbd609ce8b64dfae7
+1765184346: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184351: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184356: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184361: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184366: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184371: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184376: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184381: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184386: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184391: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184396: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184401: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184405: Received PINGREQ from noderedbd609ce8b64dfae7
+1765184405: Sending PINGRESP to noderedbd609ce8b64dfae7
+1765184406: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184411: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184416: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184421: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184426: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184431: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184436: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184441: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184446: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184451: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184456: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184461: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184465: Received PINGREQ from noderedbd609ce8b64dfae7
+1765184465: Sending PINGRESP to noderedbd609ce8b64dfae7
+1765184466: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184471: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184476: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184481: Received PUBLISH from noderedbd609ce8b64dfae7 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184482: Received UNSUBSCRIBE from noderedbd609ce8b64dfae7
+1765184482: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765184482: noderedbd609ce8b64dfae7 "iot-2/cmd/sendsensordata/fmt/json"
+1765184482: Sending UNSUBACK to noderedbd609ce8b64dfae7
+1765184482: Received DISCONNECT from noderedbd609ce8b64dfae7
+1765184482: Client noderedbd609ce8b64dfae7 disconnected.
+1765184482: mosquitto version 2.0.22 terminating
+1765184482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765184601: mosquitto version 2.0.22 starting
+1765184601: Config loaded from /mosquitto/config/mosquitto.conf.
+1765184601: Opening ipv4 listen socket on port 1883.
+1765184601: mosquitto version 2.0.22 running
+1765184605: New connection from 172.21.0.2:50418 on port 1883.
+1765184605: New client connected from 172.21.0.2:50418 as noderedd4c188dd1c8246e6 (p2, c1, k60).
+1765184605: No will message specified.
+1765184605: Sending CONNACK to noderedd4c188dd1c8246e6 (0, 0)
+1765184605: Received SUBSCRIBE from noderedd4c188dd1c8246e6
+1765184605: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765184605: noderedd4c188dd1c8246e6 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765184605: Sending SUBACK to noderedd4c188dd1c8246e6
+1765184610: Received PUBLISH from noderedd4c188dd1c8246e6 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184615: Received PUBLISH from noderedd4c188dd1c8246e6 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184620: Received PUBLISH from noderedd4c188dd1c8246e6 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184625: Received PUBLISH from noderedd4c188dd1c8246e6 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184630: Received PUBLISH from noderedd4c188dd1c8246e6 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765184632: Received UNSUBSCRIBE from noderedd4c188dd1c8246e6
+1765184632: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765184632: noderedd4c188dd1c8246e6 "iot-2/cmd/sendsensordata/fmt/json"
+1765184632: Sending UNSUBACK to noderedd4c188dd1c8246e6
+1765184632: mosquitto version 2.0.22 terminating
+1765184632: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765197602: mosquitto version 2.0.22 starting
+1765197602: Config loaded from /mosquitto/config/mosquitto.conf.
+1765197602: Opening ipv4 listen socket on port 1883.
+1765197602: mosquitto version 2.0.22 running
+1765197606: New connection from 172.21.0.3:57952 on port 1883.
+1765197606: New client connected from 172.21.0.3:57952 as nodered0ceb3dd8ed820cc9 (p2, c1, k60).
+1765197606: No will message specified.
+1765197606: Sending CONNACK to nodered0ceb3dd8ed820cc9 (0, 0)
+1765197606: Received SUBSCRIBE from nodered0ceb3dd8ed820cc9
+1765197606: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765197606: nodered0ceb3dd8ed820cc9 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765197606: Sending SUBACK to nodered0ceb3dd8ed820cc9
+1765197611: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197616: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197621: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197626: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197631: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197636: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197641: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197646: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197651: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197656: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197661: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197666: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197666: Received PINGREQ from nodered0ceb3dd8ed820cc9
+1765197666: Sending PINGRESP to nodered0ceb3dd8ed820cc9
+1765197671: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197676: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197681: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197686: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197691: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197696: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197701: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197706: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197711: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197716: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197721: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197726: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197726: Received PINGREQ from nodered0ceb3dd8ed820cc9
+1765197726: Sending PINGRESP to nodered0ceb3dd8ed820cc9
+1765197731: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197736: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197741: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197746: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197751: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197756: Received PUBLISH from nodered0ceb3dd8ed820cc9 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197756: Received UNSUBSCRIBE from nodered0ceb3dd8ed820cc9
+1765197756: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765197756: nodered0ceb3dd8ed820cc9 "iot-2/cmd/sendsensordata/fmt/json"
+1765197756: Sending UNSUBACK to nodered0ceb3dd8ed820cc9
+1765197756: Received DISCONNECT from nodered0ceb3dd8ed820cc9
+1765197756: Client nodered0ceb3dd8ed820cc9 disconnected.
+1765197756: mosquitto version 2.0.22 terminating
+1765197756: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765197782: mosquitto version 2.0.22 starting
+1765197782: Config loaded from /mosquitto/config/mosquitto.conf.
+1765197782: Opening ipv4 listen socket on port 1883.
+1765197782: mosquitto version 2.0.22 running
+1765197784: New connection from 172.21.0.3:35692 on port 1883.
+1765197784: New client connected from 172.21.0.3:35692 as noderede9f78e7c5fdce0fc (p2, c1, k60).
+1765197784: No will message specified.
+1765197784: Sending CONNACK to noderede9f78e7c5fdce0fc (0, 0)
+1765197784: Received SUBSCRIBE from noderede9f78e7c5fdce0fc
+1765197784: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765197784: noderede9f78e7c5fdce0fc 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765197784: Sending SUBACK to noderede9f78e7c5fdce0fc
+1765197789: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197794: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197799: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197804: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197809: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197814: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197819: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197824: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197829: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197834: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197839: Received PUBLISH from noderede9f78e7c5fdce0fc (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197841: Received UNSUBSCRIBE from noderede9f78e7c5fdce0fc
+1765197841: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765197841: noderede9f78e7c5fdce0fc "iot-2/cmd/sendsensordata/fmt/json"
+1765197841: Sending UNSUBACK to noderede9f78e7c5fdce0fc
+1765197841: Received DISCONNECT from noderede9f78e7c5fdce0fc
+1765197841: Client noderede9f78e7c5fdce0fc disconnected.
+1765197841: mosquitto version 2.0.22 terminating
+1765197841: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765197849: mosquitto version 2.0.22 starting
+1765197849: Config loaded from /mosquitto/config/mosquitto.conf.
+1765197849: Opening ipv4 listen socket on port 1883.
+1765197849: mosquitto version 2.0.22 running
+1765197852: New connection from 172.21.0.4:46398 on port 1883.
+1765197852: New client connected from 172.21.0.4:46398 as nodered0b1828d45d87641f (p2, c1, k60).
+1765197852: No will message specified.
+1765197852: Sending CONNACK to nodered0b1828d45d87641f (0, 0)
+1765197852: Received SUBSCRIBE from nodered0b1828d45d87641f
+1765197852: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765197852: nodered0b1828d45d87641f 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765197852: Sending SUBACK to nodered0b1828d45d87641f
+1765197856: Received PUBLISH from nodered0b1828d45d87641f (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197861: Received PUBLISH from nodered0b1828d45d87641f (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197866: Received PUBLISH from nodered0b1828d45d87641f (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197871: Received PUBLISH from nodered0b1828d45d87641f (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197876: Received PUBLISH from nodered0b1828d45d87641f (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197881: Received PUBLISH from nodered0b1828d45d87641f (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197886: Received UNSUBSCRIBE from nodered0b1828d45d87641f
+1765197886: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765197886: nodered0b1828d45d87641f "iot-2/cmd/sendsensordata/fmt/json"
+1765197886: Sending UNSUBACK to nodered0b1828d45d87641f
+1765197886: Received DISCONNECT from nodered0b1828d45d87641f
+1765197886: Client nodered0b1828d45d87641f disconnected.
+1765197886: mosquitto version 2.0.22 terminating
+1765197886: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765197893: mosquitto version 2.0.22 starting
+1765197893: Config loaded from /mosquitto/config/mosquitto.conf.
+1765197893: Opening ipv4 listen socket on port 1883.
+1765197893: mosquitto version 2.0.22 running
+1765197895: New connection from 172.21.0.2:42342 on port 1883.
+1765197895: New client connected from 172.21.0.2:42342 as noderedf2947fdff2f6b795 (p2, c1, k60).
+1765197895: No will message specified.
+1765197895: Sending CONNACK to noderedf2947fdff2f6b795 (0, 0)
+1765197895: Received SUBSCRIBE from noderedf2947fdff2f6b795
+1765197895: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765197895: noderedf2947fdff2f6b795 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765197895: Sending SUBACK to noderedf2947fdff2f6b795
+1765197900: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197905: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197910: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197915: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197920: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197925: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197930: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197935: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197940: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197945: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197950: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197955: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197955: Received PINGREQ from noderedf2947fdff2f6b795
+1765197955: Sending PINGRESP to noderedf2947fdff2f6b795
+1765197960: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197965: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197970: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197975: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197980: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197985: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197990: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765197995: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198000: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198005: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198010: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198015: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198015: Received PINGREQ from noderedf2947fdff2f6b795
+1765198015: Sending PINGRESP to noderedf2947fdff2f6b795
+1765198020: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198025: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198030: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198035: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198040: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198045: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198050: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198055: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198060: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198065: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198070: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198075: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198075: Received PINGREQ from noderedf2947fdff2f6b795
+1765198075: Sending PINGRESP to noderedf2947fdff2f6b795
+1765198080: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198085: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198090: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198095: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198100: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198105: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198110: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198115: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198120: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198125: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198130: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198135: Received PINGREQ from noderedf2947fdff2f6b795
+1765198135: Sending PINGRESP to noderedf2947fdff2f6b795
+1765198135: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198140: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198145: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198150: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198155: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198160: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198165: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198170: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198175: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198180: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198185: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198190: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198195: Received PINGREQ from noderedf2947fdff2f6b795
+1765198195: Sending PINGRESP to noderedf2947fdff2f6b795
+1765198195: Received PUBLISH from noderedf2947fdff2f6b795 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765198197: Received UNSUBSCRIBE from noderedf2947fdff2f6b795
+1765198197: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765198197: noderedf2947fdff2f6b795 "iot-2/cmd/sendsensordata/fmt/json"
+1765198197: Sending UNSUBACK to noderedf2947fdff2f6b795
+1765198197: Received DISCONNECT from noderedf2947fdff2f6b795
+1765198197: Client noderedf2947fdff2f6b795 disconnected.
+1765198197: mosquitto version 2.0.22 terminating
+1765198197: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765201262: mosquitto version 2.0.22 starting
+1765201262: Config loaded from /mosquitto/config/mosquitto.conf.
+1765201262: Opening ipv4 listen socket on port 1883.
+1765201262: mosquitto version 2.0.22 running
+1765201266: New connection from 172.21.0.4:59330 on port 1883.
+1765201266: New client connected from 172.21.0.4:59330 as nodered9ff4f1c92cc9b39c (p2, c1, k60).
+1765201266: No will message specified.
+1765201266: Sending CONNACK to nodered9ff4f1c92cc9b39c (0, 0)
+1765201266: Received SUBSCRIBE from nodered9ff4f1c92cc9b39c
+1765201266: 	"iot-2/cmd/sendsensordata/fmt/json" (QoS 0)
+1765201266: nodered9ff4f1c92cc9b39c 0 "iot-2/cmd/sendsensordata/fmt/json"
+1765201266: Sending SUBACK to nodered9ff4f1c92cc9b39c
+1765201271: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201276: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201281: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201286: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201291: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201296: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201301: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201306: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201311: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201316: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201321: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201326: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201326: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201326: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201331: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201336: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201341: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201346: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201351: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201356: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201361: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201366: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201371: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201376: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201381: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201386: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201386: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201386: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201391: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201396: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201401: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201406: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201411: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201416: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201421: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201426: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201431: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201436: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201441: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201446: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201446: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201446: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201451: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201456: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201461: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201466: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201471: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201476: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201481: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201486: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201491: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201496: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201501: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201506: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201506: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201506: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201511: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201516: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201521: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201526: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201531: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201536: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201541: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201546: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201551: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201556: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201561: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201566: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201566: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201566: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201571: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201576: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201581: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201586: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201591: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201596: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201601: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201606: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201611: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201616: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201621: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201626: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201626: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201626: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201631: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201636: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201641: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201646: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201651: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201656: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201661: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201666: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201671: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201676: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201681: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201686: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201686: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201686: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201691: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201696: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201701: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201706: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201711: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201716: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201721: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201726: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201731: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201736: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201741: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201746: Received PINGREQ from nodered9ff4f1c92cc9b39c
+1765201746: Sending PINGRESP to nodered9ff4f1c92cc9b39c
+1765201746: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201751: Received PUBLISH from nodered9ff4f1c92cc9b39c (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201752: Received UNSUBSCRIBE from nodered9ff4f1c92cc9b39c
+1765201752: 	"iot-2/cmd/sendsensordata/fmt/json"
+1765201752: nodered9ff4f1c92cc9b39c "iot-2/cmd/sendsensordata/fmt/json"
+1765201752: Sending UNSUBACK to nodered9ff4f1c92cc9b39c
+1765201752: Received DISCONNECT from nodered9ff4f1c92cc9b39c
+1765201752: Client nodered9ff4f1c92cc9b39c disconnected.
+1765201752: New connection from 172.21.0.4:53254 on port 1883.
+1765201752: New client connected from 172.21.0.4:53254 as nodered0a62f9741b9c2ca5 (p2, c1, k60).
+1765201752: No will message specified.
+1765201752: Sending CONNACK to nodered0a62f9741b9c2ca5 (0, 0)
+1765201752: Received SUBSCRIBE from nodered0a62f9741b9c2ca5
+1765201752: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765201752: nodered0a62f9741b9c2ca5 0 iot-2/cmd/sendsensordata/fmt/json
+1765201752: Sending SUBACK to nodered0a62f9741b9c2ca5
+1765201757: Received PUBLISH from nodered0a62f9741b9c2ca5 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201757: Sending PUBLISH to nodered0a62f9741b9c2ca5 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201762: Received PUBLISH from nodered0a62f9741b9c2ca5 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201762: Sending PUBLISH to nodered0a62f9741b9c2ca5 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201767: Received PUBLISH from nodered0a62f9741b9c2ca5 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201767: Sending PUBLISH to nodered0a62f9741b9c2ca5 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765201771: Received UNSUBSCRIBE from nodered0a62f9741b9c2ca5
+1765201771: 	iot-2/cmd/sendsensordata/fmt/json
+1765201771: nodered0a62f9741b9c2ca5 iot-2/cmd/sendsensordata/fmt/json
+1765201771: Sending UNSUBACK to nodered0a62f9741b9c2ca5
+1765201771: mosquitto version 2.0.22 terminating
+1765201771: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765203013: mosquitto version 2.0.22 starting
+1765203013: Config loaded from /mosquitto/config/mosquitto.conf.
+1765203013: Opening ipv4 listen socket on port 1883.
+1765203013: mosquitto version 2.0.22 running
+1765203016: New connection from 172.21.0.3:43846 on port 1883.
+1765203016: New client connected from 172.21.0.3:43846 as nodered91145d1e2665205a (p2, c1, k60).
+1765203016: No will message specified.
+1765203016: Sending CONNACK to nodered91145d1e2665205a (0, 0)
+1765203016: Received SUBSCRIBE from nodered91145d1e2665205a
+1765203016: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765203016: nodered91145d1e2665205a 0 iot-2/cmd/sendsensordata/fmt/json
+1765203016: Sending SUBACK to nodered91145d1e2665205a
+1765203017: Received UNSUBSCRIBE from nodered91145d1e2665205a
+1765203017: 	iot-2/cmd/sendsensordata/fmt/json
+1765203017: nodered91145d1e2665205a iot-2/cmd/sendsensordata/fmt/json
+1765203017: Sending UNSUBACK to nodered91145d1e2665205a
+1765203017: mosquitto version 2.0.22 terminating
+1765203017: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765203356: mosquitto version 2.0.22 starting
+1765203356: Config loaded from /mosquitto/config/mosquitto.conf.
+1765203356: Opening ipv4 listen socket on port 1883.
+1765203356: mosquitto version 2.0.22 running
+1765203360: New connection from 172.21.0.6:38856 on port 1883.
+1765203360: New client connected from 172.21.0.6:38856 as nodered5a49b13f12fdce07 (p2, c1, k60).
+1765203360: No will message specified.
+1765203360: Sending CONNACK to nodered5a49b13f12fdce07 (0, 0)
+1765203360: Received SUBSCRIBE from nodered5a49b13f12fdce07
+1765203360: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765203360: nodered5a49b13f12fdce07 0 iot-2/cmd/sendsensordata/fmt/json
+1765203360: Sending SUBACK to nodered5a49b13f12fdce07
+1765203365: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203365: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203370: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203370: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203375: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203375: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203380: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203380: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203385: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203385: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203390: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203390: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203395: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203395: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203400: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203400: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203405: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203405: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203410: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203410: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203415: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203415: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203420: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203420: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203420: Received PINGREQ from nodered5a49b13f12fdce07
+1765203420: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203425: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203425: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203430: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203430: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203435: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203435: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203440: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203440: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203445: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203445: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203450: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203450: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203455: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203455: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203460: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203460: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203465: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203465: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203470: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203470: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203475: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203475: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203480: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203480: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203480: Received PINGREQ from nodered5a49b13f12fdce07
+1765203480: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203485: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203485: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203490: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203490: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203495: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203495: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203500: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203500: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203505: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203505: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203510: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203510: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203515: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203515: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203520: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203520: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203525: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203525: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203530: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203530: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203535: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203535: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203540: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203540: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203540: Received PINGREQ from nodered5a49b13f12fdce07
+1765203540: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203545: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203545: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203550: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203550: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203555: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203555: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203560: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203560: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203565: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203565: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203570: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203570: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203575: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203575: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203580: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203580: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203585: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203585: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203590: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203590: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203595: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203595: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203600: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203600: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203600: Received PINGREQ from nodered5a49b13f12fdce07
+1765203600: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203605: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203605: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203610: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203610: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203615: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203615: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203620: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203620: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203625: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203625: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203630: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203630: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203635: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203635: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203640: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203640: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203645: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203645: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203650: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203650: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203655: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203655: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203660: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203660: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203660: Received PINGREQ from nodered5a49b13f12fdce07
+1765203660: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203665: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203665: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203670: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203670: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203675: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203675: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203680: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203680: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203685: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203685: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203690: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203690: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203695: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203695: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203700: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203700: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203705: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203705: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203710: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203710: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203715: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203715: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203720: Received PINGREQ from nodered5a49b13f12fdce07
+1765203720: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203720: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203720: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203725: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203725: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203730: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203730: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203735: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203735: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203740: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203740: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203745: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203745: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203750: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203750: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203755: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203755: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203760: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203760: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203765: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203765: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203770: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203770: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203775: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203775: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203780: Received PINGREQ from nodered5a49b13f12fdce07
+1765203780: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203780: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203780: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203785: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203785: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203790: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203790: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203795: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203795: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203800: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203800: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203805: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203805: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203810: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203810: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203815: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203815: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203820: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203820: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203825: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203825: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203830: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203830: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203835: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203835: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203840: Received PINGREQ from nodered5a49b13f12fdce07
+1765203840: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203840: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203840: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203845: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203845: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203850: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203850: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203855: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203855: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203860: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203860: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203865: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203865: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203870: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203870: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203875: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203875: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203880: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203880: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203885: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203885: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203890: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203890: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203895: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203895: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203900: Received PINGREQ from nodered5a49b13f12fdce07
+1765203900: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203900: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203900: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203905: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203905: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203910: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203910: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203915: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203915: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203920: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203920: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203925: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203925: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203930: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203930: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203935: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203935: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203940: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203940: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203945: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203945: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203950: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203950: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203955: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203955: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203960: Received PINGREQ from nodered5a49b13f12fdce07
+1765203960: Sending PINGRESP to nodered5a49b13f12fdce07
+1765203960: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203960: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203965: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203965: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203970: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203970: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203975: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203975: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203980: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203980: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203985: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203985: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203990: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203990: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203995: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765203995: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204000: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204000: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204005: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204005: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204010: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204010: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204015: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204015: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204020: Received PINGREQ from nodered5a49b13f12fdce07
+1765204020: Sending PINGRESP to nodered5a49b13f12fdce07
+1765204020: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204020: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204025: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204025: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204030: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204030: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204035: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204035: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204040: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204040: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204045: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204045: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204050: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204050: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204055: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204055: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204060: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204060: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204065: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204065: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204070: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204070: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204075: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204075: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204080: Received PINGREQ from nodered5a49b13f12fdce07
+1765204080: Sending PINGRESP to nodered5a49b13f12fdce07
+1765204080: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204080: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204085: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204085: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204090: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204090: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204095: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204095: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204100: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204100: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204105: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204105: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204110: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204110: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204115: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204115: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204120: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204120: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204125: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204125: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204130: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204130: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204135: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204135: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204140: Received PINGREQ from nodered5a49b13f12fdce07
+1765204140: Sending PINGRESP to nodered5a49b13f12fdce07
+1765204140: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204140: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204145: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204145: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204150: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204150: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204155: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204155: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204160: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204160: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204165: Received PUBLISH from nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204165: Sending PUBLISH to nodered5a49b13f12fdce07 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204168: Received UNSUBSCRIBE from nodered5a49b13f12fdce07
+1765204168: 	iot-2/cmd/sendsensordata/fmt/json
+1765204168: nodered5a49b13f12fdce07 iot-2/cmd/sendsensordata/fmt/json
+1765204168: Sending UNSUBACK to nodered5a49b13f12fdce07
+1765204168: Received DISCONNECT from nodered5a49b13f12fdce07
+1765204168: Client nodered5a49b13f12fdce07 disconnected.
+1765204168: New connection from 172.21.0.6:57762 on port 1883.
+1765204168: New client connected from 172.21.0.6:57762 as nodered660c38ae18efca9e (p2, c1, k60).
+1765204168: No will message specified.
+1765204168: Sending CONNACK to nodered660c38ae18efca9e (0, 0)
+1765204168: Received SUBSCRIBE from nodered660c38ae18efca9e
+1765204168: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765204168: nodered660c38ae18efca9e 0 iot-2/cmd/sendsensordata/fmt/json
+1765204168: Sending SUBACK to nodered660c38ae18efca9e
+1765204173: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204173: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204178: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204178: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204183: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204183: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204188: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204188: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204193: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204193: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204198: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204198: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204203: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204203: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204208: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204208: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204213: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204213: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204218: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204218: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204223: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204223: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204228: Received PINGREQ from nodered660c38ae18efca9e
+1765204228: Sending PINGRESP to nodered660c38ae18efca9e
+1765204228: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204228: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204233: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204233: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204238: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204238: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204243: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204243: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204248: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204248: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204253: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204253: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204258: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204258: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204263: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204263: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204268: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204268: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204273: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204273: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204278: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204278: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204283: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204283: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204288: Received PINGREQ from nodered660c38ae18efca9e
+1765204288: Sending PINGRESP to nodered660c38ae18efca9e
+1765204288: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204288: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204293: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204293: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204298: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204298: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204303: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204303: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204308: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204308: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204313: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204313: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204318: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204318: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204323: Received PUBLISH from nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204323: Sending PUBLISH to nodered660c38ae18efca9e (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204328: Received UNSUBSCRIBE from nodered660c38ae18efca9e
+1765204328: 	iot-2/cmd/sendsensordata/fmt/json
+1765204328: nodered660c38ae18efca9e iot-2/cmd/sendsensordata/fmt/json
+1765204328: Sending UNSUBACK to nodered660c38ae18efca9e
+1765204328: Received DISCONNECT from nodered660c38ae18efca9e
+1765204328: Client nodered660c38ae18efca9e disconnected.
+1765204328: New connection from 172.21.0.6:44706 on port 1883.
+1765204328: New client connected from 172.21.0.6:44706 as nodered0be3ba2326090968 (p2, c1, k60).
+1765204328: No will message specified.
+1765204328: Sending CONNACK to nodered0be3ba2326090968 (0, 0)
+1765204328: Received SUBSCRIBE from nodered0be3ba2326090968
+1765204328: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765204328: nodered0be3ba2326090968 0 iot-2/cmd/sendsensordata/fmt/json
+1765204328: Sending SUBACK to nodered0be3ba2326090968
+1765204333: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204333: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204338: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204338: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204343: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204343: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204348: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204348: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204353: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204353: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204358: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204358: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204363: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204363: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204368: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204368: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204373: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204373: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204378: Received PUBLISH from nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204378: Sending PUBLISH to nodered0be3ba2326090968 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (41 bytes))
+1765204378: Received UNSUBSCRIBE from nodered0be3ba2326090968
+1765204378: 	iot-2/cmd/sendsensordata/fmt/json
+1765204378: nodered0be3ba2326090968 iot-2/cmd/sendsensordata/fmt/json
+1765204378: Sending UNSUBACK to nodered0be3ba2326090968
+1765204378: Received DISCONNECT from nodered0be3ba2326090968
+1765204378: Client nodered0be3ba2326090968 disconnected.
+1765204378: New connection from 172.21.0.6:45166 on port 1883.
+1765204378: New client connected from 172.21.0.6:45166 as nodered959c6bf20219e9fd (p2, c1, k60).
+1765204378: No will message specified.
+1765204378: Sending CONNACK to nodered959c6bf20219e9fd (0, 0)
+1765204378: Received SUBSCRIBE from nodered959c6bf20219e9fd
+1765204378: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765204378: nodered959c6bf20219e9fd 0 iot-2/cmd/sendsensordata/fmt/json
+1765204378: Sending SUBACK to nodered959c6bf20219e9fd
+1765204383: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204383: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204388: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (43 bytes))
+1765204388: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (43 bytes))
+1765204393: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (45 bytes))
+1765204393: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (45 bytes))
+1765204398: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (47 bytes))
+1765204398: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (47 bytes))
+1765204403: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204403: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204408: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (51 bytes))
+1765204408: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (51 bytes))
+1765204413: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204413: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204418: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204418: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204423: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204423: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204428: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204428: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204433: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204433: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204438: Received PINGREQ from nodered959c6bf20219e9fd
+1765204438: Sending PINGRESP to nodered959c6bf20219e9fd
+1765204438: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204438: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204443: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204443: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204448: Received PUBLISH from nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204448: Sending PUBLISH to nodered959c6bf20219e9fd (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204451: Received UNSUBSCRIBE from nodered959c6bf20219e9fd
+1765204451: 	iot-2/cmd/sendsensordata/fmt/json
+1765204451: nodered959c6bf20219e9fd iot-2/cmd/sendsensordata/fmt/json
+1765204451: Sending UNSUBACK to nodered959c6bf20219e9fd
+1765204451: Received DISCONNECT from nodered959c6bf20219e9fd
+1765204451: Client nodered959c6bf20219e9fd disconnected.
+1765204451: New connection from 172.21.0.6:48716 on port 1883.
+1765204451: New client connected from 172.21.0.6:48716 as noderedfd159d00000fad20 (p2, c1, k60).
+1765204451: No will message specified.
+1765204451: Sending CONNACK to noderedfd159d00000fad20 (0, 0)
+1765204451: Received SUBSCRIBE from noderedfd159d00000fad20
+1765204451: 	iot-2/cmd/sendsensordata/fmt/json (QoS 0)
+1765204451: noderedfd159d00000fad20 0 iot-2/cmd/sendsensordata/fmt/json
+1765204451: Sending SUBACK to noderedfd159d00000fad20
+1765204456: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204456: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (40 bytes))
+1765204461: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (43 bytes))
+1765204461: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (43 bytes))
+1765204466: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204466: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204471: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204471: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204476: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204476: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204481: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204481: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204486: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204486: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204491: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204491: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204496: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204496: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204501: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204501: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204506: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204506: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204511: Received PINGREQ from noderedfd159d00000fad20
+1765204511: Sending PINGRESP to noderedfd159d00000fad20
+1765204511: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (55 bytes))
+1765204511: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (55 bytes))
+1765204516: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204516: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204521: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204521: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204526: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (55 bytes))
+1765204526: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (55 bytes))
+1765204531: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204531: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204536: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204536: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204541: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204541: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204546: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204546: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204551: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204551: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204556: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (54 bytes))
+1765204556: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (54 bytes))
+1765204561: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204561: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204566: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204566: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204571: Received PINGREQ from noderedfd159d00000fad20
+1765204571: Sending PINGRESP to noderedfd159d00000fad20
+1765204571: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204571: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204576: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (55 bytes))
+1765204576: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (55 bytes))
+1765204581: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204581: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204586: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204586: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204591: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204591: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204596: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204596: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204601: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204601: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204606: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204606: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204611: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204611: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204616: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204616: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204621: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204621: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204626: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204626: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204631: Received PINGREQ from noderedfd159d00000fad20
+1765204631: Sending PINGRESP to noderedfd159d00000fad20
+1765204631: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204631: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204636: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204636: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (57 bytes))
+1765204641: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204641: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204646: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204646: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204651: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204651: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204656: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204656: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204661: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204661: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204666: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204666: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204671: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204671: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204676: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204676: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204681: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204681: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204686: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204686: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204691: Received PINGREQ from noderedfd159d00000fad20
+1765204691: Sending PINGRESP to noderedfd159d00000fad20
+1765204691: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204691: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204696: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204696: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204701: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (53 bytes))
+1765204701: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (53 bytes))
+1765204706: Received PUBLISH from noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204706: Sending PUBLISH to noderedfd159d00000fad20 (d0, q0, r0, m0, 'iot-2/cmd/sendsensordata/fmt/json', ... (56 bytes))
+1765204710: Received UNSUBSCRIBE from noderedfd159d00000fad20
+1765204710: 	iot-2/cmd/sendsensordata/fmt/json
+1765204710: noderedfd159d00000fad20 iot-2/cmd/sendsensordata/fmt/json
+1765204710: Sending UNSUBACK to noderedfd159d00000fad20
+1765204710: mosquitto version 2.0.22 terminating
+1765204710: Saving in-memory database to /mosquitto/data//mosquitto.db.
