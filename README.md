@@ -15,7 +15,7 @@ The lab recommends a local installation of each component in containers (podman/
 
 ### Learning Tasks
 
-- Install and use Node-RED locally or in Cloud mode.
+- Install and use Node-RED locally (**use of Docker or podman recommended**) or in Cloud mode.
 - Create a virtual sensor and transmit its data via MQTT.
 - Store IoT data in InfluxDB (time series).
 - Store enriched events in CouchDB (JSON documents).
@@ -33,7 +33,31 @@ Node-RED consists of a Node.js-based runtime with a flow editor accessed through
 
 ### Local Method (Recommended)
 
-**Option 1: Native Installation (requires Node.js)**
+**Option 1: Installation via Docker / Podman (Recommended)**
+
+###### Choose one of the following container platforms:
+- Docker
+
+    - Docker Desktop (macOS/Windows): [Download here](https://www.docker.com/products/docker-desktop/)
+    - Docker Engine (Linux): [Installation guide](https://docs.docker.com/engine/install/)
+    
+- Podman (Alternative to Docker)
+    - Podman Desktop (macOS/Windows): [Download here](https://podman-desktop.io/)
+    - Podman CLI (Linux): [Installation guide](https://podman.io/docs/installation)
+    - podman-compose: `pip install podman-compose`
+
+```bash
+docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
+```
+
+Note that it is possible to use a `docker-compose` file to get all the necessary components to run on your local machine.
+In that case, stop the previous Node-RED container and use the following command (`docker-compose` or `podman-compose`): 
+```bash
+git clone https://github.com/bmarolleau/iot-bigdata-lab
+docker-compose  up -d
+```
+
+**Option 2: Native Installation (requires Node.js)**
 ```bash
 # Install Node.js LTS from https://nodejs.org/en/download/
 node -v
@@ -45,12 +69,7 @@ node-red
 ```
 Interface: http://localhost:1880
 
-**Option 2: Installation via Docker / Podman**
-```bash
-docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
-```
-
-**Option 3: Cloud wiht NodeRED aa a service**
+**Option 3: Cloud wiht NodeRED aa a service (fun but not recommended in the lab)**
 Create a free account on FlowFuse
 __ 1.	Go to https://flowfuse.com/  and click on “GET STARTED FOR FREE” 
 __ 2.	Fill in the Account Creation form. Use the appropriate email and personal information.
@@ -74,10 +93,15 @@ __3. Create a Node-RED instance and click “Open Editor”.
 
 
 3. Configure inject to repeat every 5 seconds.
-![alt text](./images/image-2.png)
+<!--![alt text](./images/image-2.png)-->
+<img src="./images/image-2.png" alt="inject interval" width="300"/>
+
 4. Configure the function node:
 
-![alt text](./images/image-3.png)
+<img src="./images/image-3.png" alt="function" width="400"/>
+
+<!--![alt text](./images/image-3.png)-->
+
 ```javascript
 msg.payload = { d: { temp: 28, humidity: 79, objectTemp: 24 } };
 return msg;
@@ -180,29 +204,30 @@ Add a couchdb/Cloudant Node  (`Cloudant OUT` node in the Storage Category) & lin
 
 3. Configure the node to connect to your database by double clicking on the cloudant node (ensure you use a `cloudant out` node)
 
-![alt text](./images/image-26.png)
+<!--![alt text](./images/image-26.png)-->
+<img src="./images/image-26.png" alt="cloudant out" width="400"/>
 
 a_ : If using Cloudant db on IBM Cloud: use your service credentials obtained on the Cloudant servicen (API key, user password)
 
-![alt text](./images/image-25.png)
+<img src="./images/image-25.png" alt="cloudant out" width="400"/>
 
 b_ if using local Couchdb, please enter the connection information as shown below
 
-![alt text](./images/image-41.png)
+<img src="./images/image-41.png" alt="cloudant out" width="400"/>
 
 There are several ways to connect your NodeRED and the CouchDB containers together (podman network etc.). In this example, we use the IP address of the pod, obtained by running this simple command: 
 ```bash
 podman inspect --format='{{.NetworkSettings.IPAddress}}' <containerName>
 ```
 where containterName here is `couchdb`. Set the `Host` property to http://<IP>:5984  where `<IP>`is the result of the command above. 
+Note that if your container setting is okay (podman-compose) you should be able to use a hostname instead. In that case, the `Host`field above should be: `https://couchdb:5984`
 
 ![alt text](./images/image-42.png)
 
 4. Validate the configuration and deploy your flow:
 
-![alt text](./images/image-27.png)
-
-![alt text](./images/image-28.png)
+<img src="./images/image-27.png" alt="cloudant out" width="400"/> 
+<img src="./images/image-28.png" alt="node-red deploy" width="300"/>
 
 **Insert JSON Data from your IoT device**
 
@@ -260,18 +285,22 @@ Create a bucket + generate a token.
 ![alt text](./images/image-48.png)
 3. Configure the node as shown below
 
-![alt text](./images/image-51.png) 
-![alt text](./images/image-47.png)
+<img src="./images/image-51.png" alt="influx nodered" width="400"/>
+
+<img src="./images/image-47.png" alt="cloudant out" width="400"/>
+
  where the IP address above corresponds to the container ip address.
  ```bash
  podman inspect --format='{{.NetworkSettings.IPAddress}}' influxdb
  10.88.0.14
  ```
+ Your can also use the container name if using docker-compose and a network, as previously. In that case, use `https://influxdb:8086`
 
 **Data Insertion**
 
 Let's use InfluxDB to store our iot time series data from the sensors. Connect the `MQTT in` node (Subscribe) to a new `function` node, and this `function` node to the `Influx DB Out` node 
-![alt text](./images/image-49.png)
+<img src="./images/image-49.png" alt="insert influx" width="400"/>
+
 Copy and paste the javascript below in the `function`node: 
 ```javascript
 var json = msg.payload.d;
@@ -310,11 +339,16 @@ In the next section, we’ll need additional nodes that are not pre-installed in
 
 __ 1.	At the top right-hand side of the page, click the ‘burger’ menu, and manage palette, type `@flowfuse/node-red-dashboardd`, click install
 
-![alt text](./images/image-11.png)
 
-__ 2.	Note the additional dashboard nodes on the palette : Dashboard category 
-![alt text](./images/image-12.png)
+<img src="./images/image-11.png" alt="install node" width="400"/>
+
+
+__ 2.	Note the additional dashboard nodes on the palette, in the `dashboard` category: 
+
+<img src="./images/image-12.png" alt="dashboard" width="200"/>
+
 __ 3.	Note also that there is a new dashboard tab in the right-hand sidebar:
+
 ![alt text](./images/image-13.png)
 
 **Create a simple Node-RED Dashboard**
