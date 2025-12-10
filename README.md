@@ -222,7 +222,7 @@ podman inspect --format='{{.NetworkSettings.IPAddress}}' <containerName>
 where containterName here is `couchdb`. Set the `Host` property to http://<IP>:5984  where `<IP>`is the result of the command above. 
 Note that if your container setting is okay (podman-compose) you should be able to use a hostname instead. In that case, the `Host`field above should be: `https://couchdb:5984`
 
-![alt text](./images/image-42.png)
+<img src="./images/image-42.png" alt="cloudant out" width="400"/> 
 
 4. Validate the configuration and deploy your flow:
 
